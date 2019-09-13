@@ -1,0 +1,19 @@
+/* 
+
+IL N'Y A RIEN A FAIRE ICI
+
+*/
+
+#parent * {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    display: inline-block;
+    border: 1px solid #bebebe;
+}
+
+div {
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid #000;
+}
