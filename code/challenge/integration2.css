@@ -1,0 +1,38 @@
+body {
+    margin: auto;
+    width: 38%;
+}
+form {
+    display: inline-block;
+    margin-top: 1em;
+}
+label {
+    display: inline-block;
+    width: 30%;
+    margin-top: 1em;
+}
+#subject {
+    width: 23%;
+    height: 38px;
+}
+label[for="message"] {
+    width: 50%;
+}
+textarea {
+    margin-top: 1em;
+    margin-left: 13.5em;
+}
+
+button {
+    height: 36px;
+    width: 80px;
+    display: block;
+    margin-top: 1em;
+    background-color: lightblue;
+    border: solid #c7c3b9 1px;
+    margin-left: 11em;
+}
+label::after{
+    content: " *";
+    color: red;
+}

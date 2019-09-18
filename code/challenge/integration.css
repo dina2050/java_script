@@ -1,0 +1,45 @@
+input[type=email] {
+width: 81%;
+border: solid #c7c3b9 1px;
+height: 36px;
+}
+
+#surname {
+    width: 44%;
+}
+
+body {
+    margin: auto;
+    width: 50%;
+}
+
+#message {
+    margin-top: 1em;
+}
+
+#subject {
+    width: 82%;
+    background-color: lightblue;
+    height: 40px;
+}
+label {
+    display: block;
+    margin-top: 1em;
+    padding-bottom: 0.2em;
+}
+label::after{
+    content: " *";
+    color: red;
+}
+button {
+    height: 36px;
+    width: 80px;
+    display: block;
+    margin-top: 1em;
+    background-color: lightblue;
+    border: solid #c7c3b9 1px;
+}
+input[type=text] {
+    border: solid #c7c3b9 1px;
+    height: 36px;
+}
