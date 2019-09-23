@@ -1,0 +1,33 @@
+.first, .second, .third, .fourth {
+width: 120px;
+height: 120px;
+border:1px solid black;
+margin: 1em;
+}
+.container {
+position:relative;
+width: 600px;
+height: 600px;
+}
+.first {
+position: absolute;
+right: 10em;
+top: 10em;
+}
+
+.second {
+position: absolute;
+top: 10em;
+left: 42em;
+}
+ .third {
+    position: absolute;
+    top: 25em;
+    right: 10em; 
+ }
+
+ .fourth {
+     position: absolute;
+     top: 25em;
+     left: 42em;
+ }
